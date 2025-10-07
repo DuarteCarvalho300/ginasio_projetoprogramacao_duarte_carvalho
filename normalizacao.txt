@@ -1,0 +1,14 @@
+Entidade Original	                Entidade no Código SQL	                    Atributos-chave do Utilizador
+
+
+
+
+PT's	                                    INSTRUTORES                                          idPT, nome
+
+Membros	                                    MEMBROS	                                  idMembro, dataNascimento, idPlano (FK) 
+
+Aulas                                         AULAS                                        	idAula, nome
+
+Inscrições	                             INSCRICOES	                                  idInscricao, dataInscrição, idMembro (FK)
+
+Plano de Treino	                         PLANOS_PERSONALIZADOS	                           idMembro (FK), nome, dia
